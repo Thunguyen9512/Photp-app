@@ -1,0 +1,46 @@
+.col {
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.photo-display {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+
+  transition: transform 0.2s;
+
+  &__content {
+    margin-top: 80px;
+    font-size: large;
+    display: none;
+
+    &__title {
+        text-align: center;
+        color: white;
+    }
+
+    &__button {
+      width: 80px;
+      margin: 10px;
+    }
+  }
+}
+
+.photo-display:hover {
+  transform: scale(1.2);
+  .photo-display__content {
+    display: block;
+  }
+}

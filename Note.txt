@@ -1,0 +1,26 @@
+PhotoApp with ReactJS + Redux
+	Technology
+	- Redux vs Redux toolkit
+	- UI library: Reactstrap 
+	- form: Formik
+	- How to control API
+	
+	Function
+	- Simple app to control images, images get from "picsum.photo"
+	- CRUD operator 
+	- Include 2 pages 
+		+ Home: Listing + view + delete
+		+ AddEdit: Create new + edit infor of a photo 
+	- Photo properties 
+		+ Title
+		+ CategoryID
+		+ ImageURL 
+	- Function 
+		+ Render list of favorite photos 
+		+ filter photo by catelogy 
+		+ add new photo 
+		+ Edit photo 
+		+ Remove Photo 
+		+ Persist data when browser reload 
+		+ Random photo from "picsum.photo"
+		+ Show list of photo from "picsum.photo" for select

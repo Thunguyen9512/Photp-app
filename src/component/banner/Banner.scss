@@ -1,0 +1,22 @@
+.banner {
+  //margin-top: 60px;
+  padding-top: 60px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-position: center;
+  background-size: cover;
+
+  //border-style: solid;
+
+  //border-bottom: 1px solid;
+  //border-top: 1px solid;
+  &__text {
+    padding-top: auto;
+    padding-bottom: auto;
+    color: rgb(133, 17, 17);
+
+  }
+}

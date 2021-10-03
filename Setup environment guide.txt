@@ -1,0 +1,16 @@
+SETUP ENVIRONMENT 
+	1. setup react js app
+	2. setup SCSS support 
+		npm i --save-dev node-sass  (save in dev mode only)
+	3. add react router 
+		npm i --save raact-router-dom 
+	4. add UI lid with reactstrap 
+		npm i --save reactstrap
+	5. File tree 
+
+	6. routing 
+		setup router 
+	
+		----------------------------------------------------------------------------
+	- add google font (poppin)
+		- add link to index.html and index.css 

@@ -1,0 +1,28 @@
+.main-page {
+  background-color: white;
+  min-height: 95vh;
+
+  &__container {
+    max-width: 1000px;
+    background-color: rgb(19, 43, 51);
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+    overflow: auto;
+  }
+  &__link {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  &__button-group {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+    &__button {
+      width: 120px;
+      margin: 10px
+    }
+  }
+}
